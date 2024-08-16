@@ -8,11 +8,14 @@ import org.junit.Test;
 
 /**
  * @author kq
- * @description
+ * @description 大话设计模式-桥接模式 测试
  * @create 2024-08-11 22:11
  */
 public class PartTest {
 
+    /**
+     * 桥接模式测试
+     */
     @Test
     public void testPart01() {
         HandsetBrandM handsetBrandM = new HandsetBrandM(new HandsetGame());
